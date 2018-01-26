@@ -3,7 +3,7 @@ layout: default
 title: Kalman Filter
 ---
 
-This code is an implementation of the Kalman Filter described [here][kalman-wiki].  The results are below:
+This code is an implementation of the Kalman Filter described [here][kalman-wiki].  The model describes a mass on a frictionless surface buffeted by normally distributed random forces.  The Kalman Filter attempts to estimate the position and velocity of the mass based on noisy observations of the position.  The results are below:
 
 ![position and velocity plots](simple.png)
 
